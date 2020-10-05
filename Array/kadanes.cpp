@@ -10,7 +10,8 @@ int main()
 {
 	int n;
 	cin>>n;
-	int *input = new int[n];
+	int input[n];
+	cout<<Enter array elements such that atleast one element is positive;
 	for(int i=0;i<n;i++)cin>>input[i];
 	/*
 		Here we are maintaining two variables, currentSum to keep the track of the running sum
